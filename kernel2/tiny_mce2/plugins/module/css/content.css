@@ -1,0 +1,7 @@
+.mceItemModule {
+	background-image: url('../images/module.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #CBDEF7;
+	border: solid 1px #000000 dotted;
+}

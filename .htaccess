@@ -1,0 +1,22 @@
+#php_value display_errors 1
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME}  !-d
+RewriteRule ^(.*)$ index.php
+RewriteRule ^sitemap\.xml$ sitemap.php
+
+Redirect 301 /9 http://nsgostdom.com/ekskursii/
+
+RewriteCond %{HTTP_HOST} ^www.nsgostdom.com$ [NC]
+RewriteRule ^(.*)$ http://nsgostdom.com/$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/6/$
+RewriteRule ^.*$ http://nsgostdom.com/bronirovanie/? [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^/2/$
+RewriteRule ^.*$ http://nsgostdom.com/hotel/? [R=301,L]
+
+php_value upload_max_filesize 20M
+php_value post_max_size 20M
+php_value magic_quotes_gpc 0

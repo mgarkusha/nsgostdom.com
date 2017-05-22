@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /files/
+Disallow: /kernel/
+Disallow: /kernel2/
+Host: nsgostdom.com/
+Sitemap: http://nsgostdom.com/main-sitemap.xml
