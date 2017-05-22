@@ -1652,7 +1652,7 @@ vertical-align: middle;
 
 .awards {
     position: absolute;
-	top:15px;
+    top: 15px;
     left: 50px;
     height: 105px;
 }
@@ -1744,6 +1744,12 @@ img.right-listik {
 		width: 312px;
 		position:initial;
 	}
+    .awards {
+        margin: 10px auto;
+        position:initial;
+        margin: 10px auto;
+        width: 210px;        
+    }
 }
 
 @media screen and (max-width: 880px) { 
