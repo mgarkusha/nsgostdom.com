@@ -1651,12 +1651,9 @@ vertical-align: middle;
 }
 
 .awards {
-	/*!display:none;*/
     position: absolute;
 	top:15px;
     left: 50px;
-    /*!border: 1px #3b7524 solid;*/
-    border-radius: 5px;
     height: 105px;
 }
 
