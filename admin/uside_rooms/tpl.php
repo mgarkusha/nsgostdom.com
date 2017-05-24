@@ -104,33 +104,32 @@
       <? foreach ($rooms as $row) { ?>
       <? $url = cms::sitemap_path(conf::$pathid).'?catalog_rooms_id='.$row['id']; ?>
       <!-- room -->
-      <div class="room span4" itemscope itemtype="http://schema.org/Product">
+      <div class="room span6" itemscope itemtype="http://schema.org/Product">
          <div class="btn-book-container">
             <!--<a href="/6/#booking_rooms" class="btn-book">Бронировать</a>-->
 			
 			<a href="/bronirovanie?room-price=<?=$row['id_for_type_room']?>" target="_blank" class="btn-book">Бронировать</a>
          </div>
-          <div class="img-reponsive2">
-            <img itemprop="image" style="display: inline;" src="/images/rooms/<?=$row['pic']?>prev3x4.jpg" data-original="/images/rooms/<?=$row['pic']?>prev3x4.jpg" class="" alt="">
+          <div class="img-reponsive1">
+            <a href="<?=$url?>"><img itemprop="image" style="display: inline;" src="/images/rooms/<?=$row['pic']?>.jpg" data-original="/images/rooms/<?=$row['pic']?>.jpg" class="" alt=""></a>
           </div>
          <h4 itemprop="name"><a href="<?=$url?>"><?=$row['name'] ?></a></h4>
          <!--<div class="description"><p class="clip"><?=$row['text']?></p></div>-->
          <div class="row">
             <ul class="room-features">
                <?if($row['additional_space']){?>
-                  <li class="span2"> <i class="icon-check-sign"></i>Дополнительное место</li>
+                  <li class="span3"> <i class="icon-check-sign"></i>Дополнительное место</li>
                <? }else{ ?>
-                  <li class="span2"> <i class="icon-check-empty"></i>Дополнительное место</li>
+                  <li class="span3"> <i class="icon-check-empty"></i>Дополнительное место</li>
                <? } ?>
             </ul>
             <div class="clearfix"></div>
-            <br>
-            <div class="span2">
-               <!--<div class="price-info" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <!--<div class="span2">
+               <div class="price-info" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                   <span class="price"><i class="fa fa-rub"></i> <span itemprop="price"><?=$row['price']?></span></span> / Ночь
-               </div>-->
-            </div>
-            <div class="span2 text-right">
+               </div>
+            </div>-->
+            <div class="span6 text-right">
                <a href="<?=$url?>" class="btn btn-primary">Подробнее</a>
             </div>
          </div>

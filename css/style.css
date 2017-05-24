@@ -155,6 +155,10 @@ h3, h4, h5, h6 {
    color: #333;
 }
 
+h4 {
+    font-size: 22px;
+}
+
 footer h3, footerh4, footerh5, footer h6 {
    font-weight: 500;
    color: #fff;

@@ -5,8 +5,8 @@
 <div class="block-mobile-2">
     <ul class="nav nav-tabs booking-tabs" style="margin-top: 20px;">
         <li class="active span3 text-center"><a data-toggle="tab" href="#booking_rooms">Номера</a></li>
-        <li class="span3 text-center"><a data-toggle="tab" href="#booking_excursions">Экскурсии</a></li>
-        <li class="span3 text-center"><a data-toggle="tab" href="#booking_cars">Автомобили</a></li>
+        <!--<li class="span3 text-center"><a data-toggle="tab" href="#booking_excursions">Экскурсии</a></li>
+        <li class="span3 text-center"><a data-toggle="tab" href="#booking_cars">Автомобили</a></li>-->
     </ul>
 
     <div class="tab-content" style="margin-bottom: 50px;">
@@ -51,7 +51,7 @@
         </div>
 
 
-        <div id="booking_excursions" class="tab-pane fade">
+        <!--<div id="booking_excursions" class="tab-pane fade">
             <h3>Бронирование экскурсии</h3>
             <div class="booking-form">
                 <form name="booking_excursion" method="post" enctype="multipart/form-data" id="booking-excursion-form">
@@ -174,7 +174,7 @@
                                    style="width:110px !important; margin-bottom: 0px;"></div>
                         </br>
                         <input type="button" onclick="send_booking($('#booking-cars-form'));return false; yaCounter35070890.reachGoal('zakaz_piter_konec'); return true;" value="Забронировать" class="btn btn-primary">
-                    </div>
+                    </div>-->
                 </form>
             </div>
 

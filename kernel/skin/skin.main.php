@@ -159,8 +159,8 @@ exit; ?>
                                           <div class="span3">
                                              <select id="fbooking">
                                                 <option value="/6/#booking_rooms">Номер в гостинице</option>
-                                                <option value="/6/#booking_excursions">Экскурсию</option>
-                                                <!--<option value="/6/#booking_cars">Автомобиль</option>-->
+                                                <!--<option value="/6/#booking_excursions">Экскурсию</option>
+                                                <option value="/6/#booking_cars">Автомобиль</option>-->
                                              </select>
                                           </div>
 
@@ -240,10 +240,7 @@ exit; ?>
                                     <div class="row">
 
                                        <div class="span6"><?=cms::display_content(4)?></div>
-                                       <div class="span6" style="text-align: right;">
-                                          <!--<a target="_blank" title="Создание, разработка, дизайн, продвижение, раскрутка сайта" href="http://r70.ru">Создание сайта:</a>
-Веб-студия R70-->
-                                       </div>
+                                       <div class="span6" style="text-align: right;">&nbsp;</div>
                                     </div>
                                  </div>
                               </div>
