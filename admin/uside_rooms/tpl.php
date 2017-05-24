@@ -70,8 +70,9 @@
          <!--<a href="/6/#booking_rooms" class="btn-book">Бронировать</a>-->
 		 <a href="/bronirovanie?room-price=<?=$row1['id_for_type_room']?>"  onclick="yaCounter35070890.reachGoal('zakaz_piter_nachalo'); return true;" target="_blank" class="btn-book">Бронировать</a>
       </div>
-      <img data-original="/images/rooms/<?=$row1['pic']?>prev3x4.jpg" src="/images/rooms/<?=$row1['pic']?>prev3x4.jpg" class="img-polaroid" alt="">
-      <h4><?=$row1['name'] ?></h4>
+      <? $url = '/nomera/'.'?catalog_rooms_id='.$row1['id']; ?>
+      <a href="<?=$url?>"><img data-original="/images/rooms/<?=$row1['pic']?>prev3x4.jpg" src="/images/rooms/<?=$row1['pic']?>prev3x4.jpg" class="img-polaroid" alt=""></a>
+       <a href="<?=$url?>"><h4><?=$row1['name'] ?></h4></a>
       <div class="description"><!--noindex--><p class="clip"><?=$row1['text'] ?></p><!--/noindex--></div>
       <div class="row">
          <ul class="room-features">
@@ -88,7 +89,7 @@
                <span class="price"><i class="fa fa-rub"></i> <?=$row1['price']?></span> / Ночь
             </div>-->
          </div>
-         <? $url = 'http://nsg.vps8.r70.ru/7/'.'?catalog_rooms_id='.$row1['id']; ?>
+         <? $url = '/nomera/'.'?catalog_rooms_id='.$row1['id']; ?>
          <div class="span2 text-right">
             <a href="<?=$url?>" class="btn btn-primary">Подробнее</a>
          </div>
