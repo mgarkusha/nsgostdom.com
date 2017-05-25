@@ -73,7 +73,7 @@ exit; ?>
         <div class="awards">
             <img class="booking-com" src="/images/booking_small.jpg">
             <img class="booking-com" src="/images/101-hotel-recomend.jpg">
-          </div>
+        </div>
          <!-- mainmenu begin -->
          <div id="mainmenu-container">
             <ul id="mainmenu">

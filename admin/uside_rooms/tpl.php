@@ -48,7 +48,8 @@
             </div>
             <div class="span2 text-right">
                 <!--<a class="btn btn-primary" href="/6/#booking_rooms">Бронировать номер</a>-->
-				<a href="/bronirovanie?room-price=<?=$rooms_item['id_for_type_room']?>" target="_blank" onclick="yaCounter35070890.reachGoal('zakaz_piter_nachalo'); return true;" class="btn btn-primary">Бронировать</a>
+				<!--<a href="/bronirovanie?room-price=<?=$rooms_item['id_for_type_room']?>" target="_blank" onclick="yaCounter35070890.reachGoal('zakaz_piter_nachalo'); return true;" class="btn btn-primary">Бронировать</a>-->
+                <a href="/bronirovanie?arrival-date-offset=0&nights=1" target="_blank" onclick="yaCounter35070890.reachGoal('zakaz_piter_nachalo'); return true;" class="btn btn-primary">Бронировать</a>
             </div>
         </div>
     </div>
@@ -68,7 +69,8 @@
    <div class="room span4">
       <div class="btn-book-container">
          <!--<a href="/6/#booking_rooms" class="btn-book">Бронировать</a>-->
-		 <a href="/bronirovanie?room-price=<?=$row1['id_for_type_room']?>"  onclick="yaCounter35070890.reachGoal('zakaz_piter_nachalo'); return true;" target="_blank" class="btn-book">Бронировать</a>
+		 <!--<a href="/bronirovanie?room-price=<?=$row1['id_for_type_room']?>"  onclick="yaCounter35070890.reachGoal('zakaz_piter_nachalo'); return true;" target="_blank" class="btn-book">Бронировать</a>-->
+         <a href="/bronirovanie?arrival-date-offset=0&nights=1" onclick="yaCounter35070890.reachGoal('zakaz_piter_nachalo'); return true;" class="btn-book">Бронировать</a>
       </div>
       <? $url = '/nomera/'.'?catalog_rooms_id='.$row1['id']; ?>
       <a href="<?=$url?>"><img data-original="/images/rooms/<?=$row1['pic']?>prev3x4.jpg" src="/images/rooms/<?=$row1['pic']?>prev3x4.jpg" class="img-polaroid" alt=""></a>
@@ -108,8 +110,8 @@
       <div class="room span6" itemscope itemtype="http://schema.org/Product">
          <div class="btn-book-container">
             <!--<a href="/6/#booking_rooms" class="btn-book">Бронировать</a>-->
-			
-			<a href="/bronirovanie?room-price=<?=$row['id_for_type_room']?>" target="_blank" class="btn-book">Бронировать</a>
+			<!--<a href="/bronirovanie?room-price=<?=$row['id_for_type_room']?>" target="_blank" class="btn-book">Бронировать</a>-->
+            <a href="/bronirovanie?arrival-date-offset=0&nights=1" onclick="yaCounter35070890.reachGoal('zakaz_piter_nachalo'); return true;" class="btn-book">Бронировать</a>
          </div>
           <div class="img-reponsive1">
             <a href="<?=$url?>"><img itemprop="image" style="display: inline;" src="/images/rooms/<?=$row['pic']?>.jpg" data-original="/images/rooms/<?=$row['pic']?>.jpg" class="" alt=""></a>
