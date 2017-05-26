@@ -71,8 +71,8 @@ exit; ?>
 			</div>
 		</a>-->
         <div class="awards">
-            <img class="booking-com" src="/images/booking_small.jpg">
-            <img class="booking-com" src="/images/101-hotel-recomend.jpg">
+            <img class="booking-com" src="/images/booking_small.jpg" alt="Guest Review Awards 8,6 в 2016 году!" title="Guest Review Awards 8,6 в 2016 году!">
+            <img class="booking-com" src="/images/101-hotel-recomend.jpg" alt="101 отель рекомендует нас!" title="101 отель рекомендует нас!">
         </div>
          <!-- mainmenu begin -->
          <div id="mainmenu-container">

@@ -71,7 +71,7 @@
 
    <div class="room span4" itemscope itemtype="http://schema.org/Product">
       <div class="btn-book-container">
-         <a href="/bronirovanie?room-price=<?=$row['id_for_type_room']?>" class="btn-book">Бронировать</a>
+         <a href="/bronirovanie?arrival-date-offset=0&nights=1" class="btn-book">Бронировать</a>
       </div>
        <a href="<?=$url?>"><img itemprop="image" data-original="/images/rooms/<?=$row['pic']?>prev3x4.jpg" src="/images/rooms/<?=$row['pic']?>prev3x4.jpg" alt=""></a>
       <h4 itemprop="name"><?=$row['name'] ?></h4>
