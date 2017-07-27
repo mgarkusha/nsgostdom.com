@@ -221,11 +221,9 @@ exit; ?>
                                     <div class="span4" style="padding-top: 0px;">
                                        <h3><?=cms::display_content(11,true)?></h3>
                                        <address itemscope itemtype="http://schema.org/Organization">
-                                          <a href="http://nsgostdom.com/kontakti/">
                                              <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress"><?=cms::display_content(14)?></span></span>
                                              <span itemprop="telephone"><?=cms::display_content(15)?></span>
                                              <span itemprop="email"><?=cms::display_content(16)?></span>
-                                          </a>
                                        </address>
                                        <div class="social-icons">
                                           <a href="https://vk.com/nsgostdom" target="_blank"><img src="/img/vk.png" alt=""/></a>
