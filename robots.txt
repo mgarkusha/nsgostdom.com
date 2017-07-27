@@ -1,7 +1,12 @@
+User-Agent: Yandex
+Disallow: /admin/
+Disallow: /files/
+Disallow: /kernel/
+Disallow: /kernel2/
 User-agent: *
 Disallow: /admin/
 Disallow: /files/
 Disallow: /kernel/
 Disallow: /kernel2/
-Host: nsgostdom.com/
-Sitemap: http://nsgostdom.com/main-sitemap.xml
+Host: nsgostdom.com
+Sitemap: http://nsgostdom.com/sitemap.xml
