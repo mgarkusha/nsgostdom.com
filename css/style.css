@@ -246,6 +246,10 @@ a:hover {
    text-align: center;
 }
 
+.feature ul {
+    list-style-image: url("/images/green-dot.png");
+}
+
 .feature i {
    display: inline-block;
    margin-bottom: 20px;
