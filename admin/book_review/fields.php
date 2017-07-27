@@ -16,27 +16,27 @@
 	$f1->maxlength=64;
 	$f1->inner='class=textinput';
 	if(conf::$aside) {
-	   $f1->rule=array('ne'=>'Поле <b>Ваше имя</b> не заполнено');
+	   $f1->rule=array('ne'=>'<span style="color: red">Поле <b>Ваше имя</b> не заполнено</span>');
 	} else {
-	   $f1->rule=array('ne'=>'Поле <b>Ваше имя</b> не заполнено','cpch'=>'Неверный код проверки');
+	   $f1->rule=array('ne'=>'<span style="color: red">Поле <b>Ваше имя</b> не заполнено','cpch'=>'<span style="color: red">Неверный код проверки</span>');
 	}
 	$e1->fields[]=&$f1;
 
-	$f='mail';
-	$$f=new ptext();
-	$$f->name=$f;
-	$$f->size=60;
-	$$f->maxlength=64;
-	$$f->inner='class=textinput';
-	$$f->rule=array('email'=>'Неправильный <b>E-mail</b>','ne'=>'Не заполнен E-mail');
-	$e1->fields[]=&$$f;
+//	$f='mail';
+//	$$f=new ptext();
+//	$$f->name=$f;
+//	$$f->size=60;
+//	$$f->maxlength=64;
+//	$$f->inner='class=textinput';
+//	$$f->rule=array('email'=>'Неправильный <b>E-mail</b>','ne'=>'Не заполнен E-mail');
+//	$e1->fields[]=&$$f;
 
 	$f5=new ptextarea();
 	$f5->name='message';
 	$f5->cols=80;
 	$f5->rows=10;
 	$f5->inner='class=textareainput';
-	$f5->rule=array('ne'=>'Поле <b>Сообщение</b> не заполнено');
+	$f5->rule=array('ne'=>'<span style="color: red">Поле <b>Сообщение</b> не заполнено</span>');
 	$e1->fields[]=&$f5;
 
     $f6=new ptextarea();

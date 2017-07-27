@@ -24,11 +24,11 @@
       <div class="comment_form_holder">
 
 
-          <label>Ваше имя:</label>
+          <label>Ваше имя <span class="req">*</span>:</label>
           <input type="text" name="author" class="full"  value="<?=vars('author')?>">
 
-          <label>Ваш E-mail <span class="req">*</span></label>
-          <input type="text" name="mail" class="full" value="<?=vars('mail')?>">
+          <!--<label>Ваш E-mail <span class="req">*</span></label>
+          <input type="text" name="mail" class="full" value="<?=vars('mail')?>">-->
 
           <label>Отзыв <span class="req">*</span></label>
           <textarea id="message" name="message" class="full" cols="10" rows="10"><?=vars('message')?></textarea>
