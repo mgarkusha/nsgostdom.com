@@ -42,12 +42,12 @@
           <!--
           <label>Аватар</label>
           <input type="file" name="pic" class="filestyle" data-buttonName="btn-primary">
-          -->
+  
           <div class="fileform">
             <div id="fileformlabel"></div>
             <div class="selectbutton">Аватар</div>
             <input id="upload" type="file" name="pic" onchange="getName(this.value);" />
-          </div>
+          </div>-->
 
           <button type="submit" onclick="javascript:store_(2);" class="btn btn-large">Отправить</button>
 
