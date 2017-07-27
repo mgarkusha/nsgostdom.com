@@ -31,8 +31,7 @@ $content .= '
     foreach ($pages as $page) {
         if($page['alias']) $url = $page['alias'];
         else $url = $page['id'];
-        $url = 'http://nsgostdom.com/';
-
+        $url = 'http://nsgostdom.com/' .$page['alias'];
         $content .= '<url>
             <loc>'.$url.'</loc>
             <lastmod>'.$lastBuildDate.'</lastmod>
@@ -55,31 +54,31 @@ $content .= '
     }
 
      //Catalog - Excursions
-    $priority = $priority - 0.10;
-    $excursions = mysql::select("SELECT id FROM #excursions WHERE display = 1 ");
-    foreach ($excursions as $excurs) {
-        $url = 'http://nsgostdom.com/excursions/?excurs=' . $excurs['id'];
-        $content .= '<url>
-            <loc>'.$url.'</loc>
-            <lastmod>'.$lastBuildDate.'</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>'.$priority.'</priority>
-        </url>';
-    }
+//    $priority = $priority - 0.10;
+//    $excursions = mysql::select("SELECT id FROM #excursions WHERE display = 1 ");
+//    foreach ($excursions as $excurs) {
+//        $url = 'http://nsgostdom.com/excursions/?excurs=' . $excurs['id'];
+//        $content .= '<url>
+//            <loc>'.$url.'</loc>
+//            <lastmod>'.$lastBuildDate.'</lastmod>
+//            <changefreq>weekly</changefreq>
+//            <priority>'.$priority.'</priority>
+//        </url>';
+//    }
     
     //Catalog - Cars
-    $priority = $priority - 0.10;
-    $cars = mysql::select("SELECT id FROM #cars WHERE display = 1 ORDER BY name");
-    foreach ($cars as $car) {
-        $url = 'http://nsgostdom.com/cars/?car=' . $car['id'];
-        $content .= '
-        <url>
-            <loc>'.$url.'</loc>
-            <lastmod>'.$lastBuildDate.'</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>'.$priority.'</priority>
-        </url>';
-    }
+//    $priority = $priority - 0.10;
+//    $cars = mysql::select("SELECT id FROM #cars WHERE display = 1 ORDER BY name");
+//    foreach ($cars as $car) {
+//        $url = 'http://nsgostdom.com/cars/?car=' . $car['id'];
+//        $content .= '
+//        <url>
+//            <loc>'.$url.'</loc>
+//            <lastmod>'.$lastBuildDate.'</lastmod>
+//            <changefreq>weekly</changefreq>
+//            <priority>'.$priority.'</priority>
+//        </url>';
+//    }
     $content .= '</urlset>';
 	/*
     if (file_exists(dirname(__FILE__) . '/sitemap.xml')) {
