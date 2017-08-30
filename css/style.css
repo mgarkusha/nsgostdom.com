@@ -497,6 +497,15 @@ a:hover {
    background: #740ca3;
 }
 
+.table-services th {
+    text-align: center;
+    background: #f1e7de;
+}
+
+.table-services img {
+    border-radius: 5px;
+}
+
 /*--------------------------------------------------
 /* menu, navigation
 /*-------------------------------------------------- */
