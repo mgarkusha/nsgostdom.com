@@ -1,6 +1,6 @@
 <? if($rooms_item){ ?>
 <div class="row" itemscope itemtype="http://schema.org/Product">
-    <div class="span8">
+    <div class="span12">
         <!-- Slideshow -->
         <div class="callbacks_container">
             <ul class="rslides pic_slider callbacks callbacks1">
@@ -22,7 +22,7 @@
         </div>
         <!-- Slideshow close --> </div>
 
-    <div class="span4" style="padding-top: 0px;">
+    <div class="span12" style="padding-top: 0px;">
         <div class="room-description">
             <h3 class="span4" style="margin-left: 0px;padding-top: 0px; padding-bottom: 0px;" itemprop="name"><?=$rooms_item['name']?></h3>
             <h4 class="span4" style="margin-left: 0px; padding-top: 0px;">Описание</h4>
