@@ -44,7 +44,7 @@ $content .= '
     $priority = $priority - 0.10;
     $catalog_rooms = mysql::select("SELECT id FROM #catalog_rooms WHERE display = '1' ORDER by name");
     foreach ($catalog_rooms as $rooms) {
-        $url = 'http://nsgostdom.com/catalog_rooms/?rooms=' . $rooms['id'];
+        $url = 'http://nsgostdom.com/nomera/?catalog_rooms_id=' . $rooms['id'];
         $content .= '<url>
             <loc>'.$url.'</loc>
             <lastmod>'.$lastBuildDate.'</lastmod>
