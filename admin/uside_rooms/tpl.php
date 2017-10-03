@@ -75,7 +75,7 @@
       <? $url = '/nomera/'.'?catalog_rooms_id='.$row1['id']; ?>
       <a href="<?=$url?>"><img data-original="/images/rooms/<?=$row1['pic']?>prev3x4.jpg" src="/images/rooms/<?=$row1['pic']?>prev3x4.jpg" class="img-polaroid" alt=""></a>
        <a href="<?=$url?>"><h4><?=$row1['name'] ?></h4></a>
-      <div class="description"><!--noindex--><p class="clip"><?=$row1['text'] ?></p><!--/noindex--></div>
+      <div class="description"><!--noindex--><p class="clip"><!--<?=$row1['text'] ?>--></p><!--/noindex--></div>
       <div class="row">
          <ul class="room-features">
             <?if($row1['additional_space']){?>
