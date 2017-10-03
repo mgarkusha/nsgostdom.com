@@ -417,7 +417,7 @@ a:hover {
 }
 
 .room-description {
-   margin-bottom: 20px;
+   margin-bottom: auto;
 }
 
 .btn-book-container {
