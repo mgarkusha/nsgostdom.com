@@ -70,6 +70,9 @@ exit; ?>
 				<img class="right-listik" src="/images/podsneg.png">
 			</div>
 		</a>-->
+       <div class="header-phone">
+           <a href="tel:+78123043581">+7(812)304-35-81</a>
+       </div>
         <div class="awards">
             <img class="booking-com" src="/images/booking_small.jpg" alt="Guest Review Awards 8,6 в 2016 году!" title="Guest Review Awards 8,6 в 2016 году!">
             <img class="booking-com" src="/images/101-hotel-recomend.jpg" alt="101 отель рекомендует нас!" title="101 отель рекомендует нас!">

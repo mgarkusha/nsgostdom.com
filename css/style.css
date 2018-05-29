@@ -1582,6 +1582,7 @@ hr {
 
 }
 
+
 .test-column {
    background: rgb(249, 198, 103); /* Old browsers */
    color: #fff;
@@ -1774,11 +1775,30 @@ img.right-listik {
 	.kanikuly,.new-year {
 		background:#fff;
 	}
-
 }
 
 @media screen and (max-width: 420px) { 
 	.header-contacts {
 		display:none;
-	}
+    	}
+    }
+@media screen and (max-width: 420px) { 
+.header-phone {
+    position: initial;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+    margin-bottom: 25px;
+    }
+    .header-phone a { 
+        color: #0c5c3b;
+    }
+}
+
+@media screen and (min-width: 421px) { 
+.header-phone {
+        display: none;
+    }    
 }
