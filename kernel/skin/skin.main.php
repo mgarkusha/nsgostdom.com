@@ -71,7 +71,7 @@ exit; ?>
 			</div>
 		</a>-->
        <div class="header-phone">
-           <a href="tel:+78123043581">+7(812)304-35-81</a>
+           <a href="tel:+78123043541">+7(812)304-35-41</a><br><a href="tel:+79313351838">+7(931)335-18-38</a>
        </div>
         <div class="awards">
             <img class="booking-com" src="/images/booking_small.jpg" alt="Guest Review Awards 8,6 в 2016 году!" title="Guest Review Awards 8,6 в 2016 году!">
