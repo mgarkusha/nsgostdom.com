@@ -71,7 +71,12 @@ exit; ?>
 			</div>
 		</a>-->
        <div class="header-phone">
-           <a href="tel:+78123043541">+7(812)304-35-41</a><br><br><a href="tel:+79313351838">+7(931)335-18-38</a>
+           <!--<a href="tel:+78123043541">+7(812)304-35-41</a><br><br><a href="tel:+79313351838">+7(931)335-18-38</a>-->
+           <address itemscope itemtype="http://schema.org/Organization">
+                                             <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress"><p><strong>Адрес</strong>: г. Санкт-Петербург, Новосельковская, д. 18</p></span></span>
+                                             <span itemprop="telephone"><p><strong>Телефон</strong>: +7 (812) 304-35-41,<br /><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+7 (931)&nbsp;335 18 38</span></p></span>
+                                             <span itemprop="email"><strong>Email</strong>: ns.gostevoydom@mail.ru</span>
+                                       </address>
        </div>
         <div class="awards">
             <img class="booking-com" src="/images/booking_small.jpg" alt="Guest Review Awards 8,6 в 2016 году!" title="Guest Review Awards 8,6 в 2016 году!">

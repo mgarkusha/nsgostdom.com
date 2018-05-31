@@ -1783,13 +1783,12 @@ img.right-listik {
     	}
     }
 @media screen and (max-width: 420px) { 
-.header-phone {
+.header-phone {    
     position: initial;
     width: 100%;
     text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-
+    font-size: 15px;
+    /* font-weight: bold; */
     margin-bottom: 25px;
     }
     .header-phone a { 
