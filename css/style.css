@@ -239,7 +239,7 @@ a:hover {
 /*-------------------------------------------------- */
 #content {
    padding: 20px 0 0px 0;
-   text-align: justify;
+   text-align: left;
 }
 
 .feature {
