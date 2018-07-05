@@ -166,7 +166,7 @@ exit; ?>
 
                                           <div class="span3">
                                              <select id="fbooking">
-                                                <option value="/6/#booking_rooms">Номер в гостинице</option>
+                                                <option value="/6/#booking_rooms">Номер в гостевом доме</option>
                                                 <!--<option value="/6/#booking_excursions">Экскурсию</option>
                                                 <option value="/6/#booking_cars">Автомобиль</option>-->
                                              </select>
