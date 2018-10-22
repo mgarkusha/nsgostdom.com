@@ -20,7 +20,7 @@ $content .= '
     $priority = 1;
     $content .= '
     <url>
-        <loc>http://nsgostdom.com/</loc>
+        <loc>https://nsgostdom.com/</loc>
         <lastmod>'.$lastBuildDate.'</lastmod>
         <changefreq>weekly</changefreq>
         <priority>'.$priority.'</priority>
@@ -31,7 +31,7 @@ $content .= '
     foreach ($pages as $page) {
         if($page['alias']) $url = $page['alias'];
         else $url = $page['id'];
-        $url = 'http://nsgostdom.com/' .$page['alias'];
+        $url = 'https://nsgostdom.com/' .$page['alias'];
         $content .= '<url>
             <loc>'.$url.'</loc>
             <lastmod>'.$lastBuildDate.'</lastmod>
@@ -44,7 +44,7 @@ $content .= '
     $priority = $priority - 0.10;
     $catalog_rooms = mysql::select("SELECT id FROM #catalog_rooms WHERE display = '1' ORDER by name");
     foreach ($catalog_rooms as $rooms) {
-        $url = 'http://nsgostdom.com/nomera/?catalog_rooms_id=' . $rooms['id'];
+        $url = 'https://nsgostdom.com/nomera/?catalog_rooms_id=' . $rooms['id'];
         $content .= '<url>
             <loc>'.$url.'</loc>
             <lastmod>'.$lastBuildDate.'</lastmod>
@@ -57,7 +57,7 @@ $content .= '
 //    $priority = $priority - 0.10;
 //    $excursions = mysql::select("SELECT id FROM #excursions WHERE display = 1 ");
 //    foreach ($excursions as $excurs) {
-//        $url = 'http://nsgostdom.com/excursions/?excurs=' . $excurs['id'];
+//        $url = 'https://nsgostdom.com/excursions/?excurs=' . $excurs['id'];
 //        $content .= '<url>
 //            <loc>'.$url.'</loc>
 //            <lastmod>'.$lastBuildDate.'</lastmod>
@@ -70,7 +70,7 @@ $content .= '
 //    $priority = $priority - 0.10;
 //    $cars = mysql::select("SELECT id FROM #cars WHERE display = 1 ORDER BY name");
 //    foreach ($cars as $car) {
-//        $url = 'http://nsgostdom.com/cars/?car=' . $car['id'];
+//        $url = 'https://nsgostdom.com/cars/?car=' . $car['id'];
 //        $content .= '
 //        <url>
 //            <loc>'.$url.'</loc>

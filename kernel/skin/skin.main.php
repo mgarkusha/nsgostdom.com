@@ -12,11 +12,11 @@ exit; ?>
    <meta name='yandex-verification' content='5aae979ef6e4f24e' />
    <meta name="google-site-verification" content="Oh_nsQ2lD82Q4gY07pwdiJGvukb9pf-9RrPBOING0ZI" />
    <meta name='wmail-verification' content='61de4b0c23b4067577c476348dfe25f3' />
-   <link rel="icon" href="http://nsgostdom.com/favicon.ico" type="image/x-icon">
-   <link rel="shortcut icon" href="http://nsgostdom.com/short-favicon.ico" type="image/x-icon">
+   <link rel="icon" href="https://nsgostdom.com/favicon.ico" type="image/x-icon">
+   <link rel="shortcut icon" href="https://nsgostdom.com/short-favicon.ico" type="image/x-icon">
    <!-- LOAD CSS FILES -->
    <link href="/css/main.css" rel="stylesheet" type="text/css">
-   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 
    <!-- LOAD JS FILES -->
@@ -79,7 +79,7 @@ exit; ?>
                                        </address>
        </div>
         <div class="awards">
-            <img class="booking-com" src="/images/booking_small.jpg" alt="Guest Review Awards 8,6 в 2016 году!" title="Guest Review Awards 8,6 в 2016 году!">
+            <img class="booking-com" src="/images/booking_small.jpg" alt="Guest Review Awards 8,8 в 2017 году!" title="Guest Review Awards 8,8 в 2017 году!">
             <img class="booking-com" src="/images/101-hotel-recomend.jpg" alt="101 отель рекомендует нас!" title="101 отель рекомендует нас!">
         </div>
          <!-- mainmenu begin -->

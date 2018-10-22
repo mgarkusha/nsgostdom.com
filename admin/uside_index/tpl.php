@@ -67,7 +67,7 @@
    <!-- room -->
    <? foreach ($catalog_rooms as $row) { ?>
 
-      <? $url = 'http://nsgostdom.com/nomera/'.'?catalog_rooms_id='.$row['id']; ?>
+      <? $url = 'https://nsgostdom.com/nomera/'.'?catalog_rooms_id='.$row['id']; ?>
 
    <div class="room span4" itemscope itemtype="http://schema.org/Product">
       <div class="btn-book-container">

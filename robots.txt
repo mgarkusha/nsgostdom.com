@@ -9,4 +9,4 @@ Disallow: /files/
 Disallow: /kernel/
 Disallow: /kernel2/
 Host: nsgostdom.com
-Sitemap: http://nsgostdom.com/sitemap.xml
+Sitemap: https://nsgostdom.com/sitemap.xml
