@@ -105,6 +105,7 @@ exit; ?>
         <div class="awards">
             <img class="booking-com" src="/images/booking_small.jpg" alt="Guest Review Awards 9,0 в 2018 году!" title="Guest Review Awards 9,0 в 2018 году!">
             <img class="booking-com" src="/images/101-hotel-recomend.jpg" alt="101 отель рекомендует нас!" title="101 отель рекомендует нас!">
+            <a target="_blank" href="https://amigohostels.com/russia/sankt-peterburg/gostevoy-dom-novoselykovskiy" title="AmigoHostels.com - бронирование хостелов онлайн"><img class="booking-com" src="https://amigohostels.com/images/banners/blue-square.jpg"></a>
         </div>
          <!-- mainmenu begin -->
          <div id="mainmenu-container">

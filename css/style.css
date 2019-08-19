@@ -1679,6 +1679,8 @@ vertical-align: middle;
 .booking-com {
     /*float: right;*/
     margin-left: 5px;
+    width: 90px; 
+    height: 90px;
 }
 
 .new-year {
@@ -1767,7 +1769,7 @@ img.right-listik {
         margin: 10px auto;
         position:initial;
         margin: 10px auto;
-        width: 210px;        
+        width: 300px;        
     }
 }
 
