@@ -4,7 +4,7 @@
 
 <div class="block-mobile-2">
     <ul class="nav nav-tabs booking-tabs" style="margin-top: 20px;">
-        <li class="active span3 text-center"><a data-toggle="tab" href="#booking_rooms">Номера</a></li>
+        <li class="active span3 text-center"><a data-toggle="tab" href="#booking_rooms">Комнаты</a></li>
         <!--<li class="span3 text-center"><a data-toggle="tab" href="#booking_excursions">Экскурсии</a></li>
         <li class="span3 text-center"><a data-toggle="tab" href="#booking_cars">Автомобили</a></li>-->
     </ul>

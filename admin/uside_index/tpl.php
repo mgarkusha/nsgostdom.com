@@ -60,14 +60,14 @@
 <? }else{?>
 <div class="row">
    <div class="text-center" style="margin-top: 40px;">
-      <h2>Лучшие номера</h2>
+      <h2>Лучшие комнаты</h2>
       Выберите для себя наиболее подходящую комнату
       <br><br>
    </div>
    <!-- room -->
    <? foreach ($catalog_rooms as $row) { ?>
 
-      <? $url = 'https://nsgostdom.com/nomera/'.'?catalog_rooms_id='.$row['id']; ?>
+      <? $url = 'https://nsgostdom.com/gostevye-komnaty/'.'?catalog_rooms_id='.$row['id']; ?>
 
    <div class="room span4" itemscope itemtype="http://schema.org/Product">
       <div class="btn-book-container">

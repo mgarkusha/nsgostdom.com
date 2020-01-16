@@ -80,13 +80,13 @@ exit; ?>
 			<span itemprop="telephone"><p><strong>Телефоны</strong>: +7 (812)&nbsp;304-35-41, +7 (931)&nbsp;335-18-38 </p></span>
 			<span itemprop="email"><strong>Email</strong>: ns.gostevoydom@mail.ru</span>
 		</div>
-		<!--<a href="/novogodnee-predlozhenie">
+		<a href="/aktsii">
 			<div class="new-year">
 				<img class="left-new-year" src="/images/vetka.png">
-				<div class="text">НОВЫЙ ГОД 2017</div>
+				<div class="text">Акция к Новому Году 2020</div>
 				<img class="right-new-year" src="/images/vetka.png">
 			</div>
-		</a>-->
+		</a>
 		<!--<a href="/shkolnye-kanikuly">
 			<div class="kanikuly">
 				<img class="left-listik" src="/images/podsneg.png">
